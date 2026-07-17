@@ -6,6 +6,8 @@ This repo produces a publication-quality plot of known planets in reflected ligh
 
 The planets included in the plot are updated semi-regularly as new planets are added to the Exoplanet Archive. Planet parameters are retrieved from the the Exoplanet Archive, and properties plotted here are documented [here](https://getagrip.streamlit.app/Derivation) (which is also a notebook that can be downloaded and reproduced). 
 
+If you use it please cite https://doi.org/10.5281/zenodo.21419975, [Pearce, Males, and Limbach 2025](https://ui.adsabs.harvard.edu/abs/2025PASP..137i4401P/abstract), and Vanessa Bailey's [DI flux ratio plot](https://github.com/nasavbailey/DI-flux-ratio-plot)
+
 ### python requirements
 * python 3 (only tested up to 3.12)
 * matplotlib
@@ -23,6 +25,9 @@ Simply clone this repo to download all required files and jupyter notebook for p
 There are a lot more parameters in the planets .csv file that be plotted by changing the column name in the `plotx` and `ploty` parameter. You can turn off highlighting the selected planets by commenting those lines, or select different planets to highlight by selecting the names from the planet .csv file in the first few rows of the plot cell. You can turn off and on the contrast cuves to plot by setting the keyword to false (Ex: to turn off Roman contrast curve set `plot_roman_curve = False`).
 
 Any questions or suggestions please email me at lapearce@umich.edu.
+
+## License and acknowledgements
+This plot was produced as part of the ELT Postdoctoral Fellowship at the University of Michigan. It is licensed under Creative Commons 4.0 and Zenodo record https://doi.org/10.5281/zenodo.21419975
 
 ## Change log
 #### 2026-07-17
