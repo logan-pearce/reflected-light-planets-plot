@@ -11,7 +11,7 @@ The planets included in the plot are updated semi-regularly as new planets are a
 * matplotlib
 * astropy (ascii, units)
 * numpy
-* juoyter notebook
+* jupyter notebook
 
 ## Making and customizing a plot
 
